@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         build: ["Release"] #, "Debug"] # "RelWithDebInfo"
-        os: [ubuntu-18.04]
+        os: [ubuntu-20.04]
         compiler: [gcc, clang]
         cxxcompiler: [g++, clang++]
         exclude:
